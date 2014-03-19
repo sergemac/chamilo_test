@@ -1,0 +1,30 @@
+answer_duration = 0
+answer_duration = 0 test_cookie = 0
+answer_duration = 0 test_cookie = 0
+answer_duration = 0 test_cookie = 0 question_id =686
+answer_duration = 0 test_cookie = 0-question_start_686 question_id =686
+answer_duration = 0 test_cookie = 0-question_start_ current_question =
+answer_duration = 0 test_cookie = 0- question_start_ current_question =
+answer_duration = 0 test_cookie = 0- question_start_ current_question =
+answer_duration = 0 test_cookie = 0- question_start_ current_question =
+answer_duration = 0 test_cookie = 0- question_start_ current_question =
+answer_duration = 0 test_cookie = 0- question_start_ current_question =
+answer_duration = 0 test_cookie = 0- question_start_ current_question =
+answer_duration = 0 test_cookie = 0- question_start_ current_question =
+answer_duration = 0 test_cookie = 0- question_start_ current_question =
+answer_duration = 0 test_cookie = 0- question_start_ current_question =
+answer_duration = 0 test_cookie = 0- question_start_ current_question =
+answer_duration = 0 test_cookie = 0- question_start_ current_question =
+answer_duration = 0 test_cookie = 0- question_start_ current_question =
+answer_duration = 32105 test_cookie = 1- question_start_686 question_id =686
+answer_duration = 32708 test_cookie = 1- question_start_686 question_id =686
+answer_duration = 33099 test_cookie = 1- question_start_686 question_id =686
+answer_duration = 33576 test_cookie = 1- question_start_686 question_id =686
+answer_duration = 33812 test_cookie = 1- question_start_686 question_id =686
+answer_duration = 33887 test_cookie = 1- question_start_686 question_id =686
+answer_duration = 36458 - test_cookie = 1- question_start_686 - question_id =686
+answer_duration = 36473 - test_cookie = 1- question_start_687 - question_id =687
+answer_duration = 36753 - test_cookie = 1- question_start_686 - question_id =686
+answer_duration = 40581 - test_cookie = 1- question_start_686 - question_id =686
+answer_duration = 40658 - test_cookie = 1- question_start_686 - question_id =686
+

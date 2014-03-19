@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This is a Reload version 2.5.5 SCORM 1.2 Content Package document-->
+<!--Spawned from the Reload Content Package Generator - http://www.reload.ac.uk-->
+<manifest xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:imsmd="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" identifier="MANIFEST-DA4700AD596624E837A8EDF71A2C3275" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <organizations default="ORG-45F222EDD46FC21C7518BAAF5273098E">
+    <organization identifier="ORG-45F222EDD46FC21C7518BAAF5273098E" structure="hierarchical">
+      <title>Les accidents survenus avec les chariots élévateurs et la responsabilité du cariste</title>
+      <item identifier="ITEM-BCCF16A195EE6552C326412C75E8178A" isvisible="true" identifierref="RES-9E4DC4A0E906D67999D167E708D94716">
+        <title>Accidentologie</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="RES-9E4DC4A0E906D67999D167E708D94716" type="webcontent" href="R389_accidentologie.html">
+      <file href="R389_accidentologie.html" />
+      <file href="APIWrapper.js" />
+      <file href="R389_accidentologie.swf" />
+    </resource>
+  </resources>
+</manifest>
+

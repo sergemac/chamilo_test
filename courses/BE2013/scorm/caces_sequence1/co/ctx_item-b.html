@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN"
+                      "http://www.w3.org/TR/html4/frameset.dtd">
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta content="no-store, no-cache" http-equiv="Cache-Control">
+  <style type="text/css">html{height:100%;}</style>
+  <title>Description du dispositif C.A.CE.S. &reg;</title>
+  <script type="text/JavaScript">
+		var scServices = {};
+		
+		scServices["scLoad"] = { loadFromRoot : function(pUrl) {sc$("mainFrame").src = "../"+pUrl;},
+			getUrlFromRoot:function(pHref){if(!this.fRootOffset) this.fRootOffset = scCoLib.hrefBase().lastIndexOf("/", scCoLib.hrefBase().lastIndexOf("/")-1); return pHref.substring(this.fRootOffset+1);},
+			getRootUrl:function(){if(!this.fRootUrl) this.fRootUrl = scCoLib.hrefBase().substring(0,scCoLib.hrefBase().lastIndexOf("/", scCoLib.hrefBase().lastIndexOf("/")-1)); return this.fRootUrl;}
+		}
+		
+		var scUrlToLoad = null;
+</script>
+  <script src="../lib-sm/scCoLib.js" type="text/JavaScript"></script>
+  <script src="../svc/scormMulti.js" type="text/JavaScript"></script>
+  <script src="../svc/lmsHack/lmsHack.js" type="text/JavaScript"></script>
+  <script type="text/JavaScript">
+scOnLoads[scOnLoads.length] = { onLoad: function(){ sc$("mainFrame").src = scUrlToLoad ? "../"+scUrlToLoad : "Definition_du_CACES_R389.html"}, loadSortKey: "ZZloadRootPage"}
+</script>
+ </head>
+ <frameset>
+  <frame id="mainFrame" name="mainFrame" src="" marginwidth="0" marginheight="0" scrolling="auto" frameborder="0" title="CACES s&eacute;quence 1">
+  <noframes>
+   <body>Your browser does not handle frames, this site will not work properly.</body>
+  </noframes>
+ </frameset>
+</html>

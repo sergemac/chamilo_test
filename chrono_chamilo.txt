@@ -1,0 +1,32 @@
+﻿=======================
+¤  CHRONO FOR CHAMILO ¤
+=======================
+@author : Serge Bayol - serge@webin33.com
+
+The "Chrono for Chamilo" update developments allow 3 main functionnalities
+
+# 1 - Set up a limitation time to answer questions and display the chrono associated.
+# 2 - Synchronise the countdown with the end of a HTML5 media reading 
+# 3 - Track the answering time for each question.
+=====================================================================================
+Github link : https://github.com/sergemac/timer
+=====================================================================================
+
+Setting up the "Chrono for Chamilo" require to change the structure of the following tables.
+# 1 - quiz_question
+# 2 - track_e_attempt
+
+=====================================================================================
+# 1 - quiz_question								    #
+=====================================================================================
+Add the fields :
+chrono 		: 	INT(11) - NOT NULL - DEFAULT:'0'
+chrono_media 	: 	TINYINT(3) - Unasigned data type - DEFAULT:'0'
+
+=====================================================================================
+# 2 - track_e_attempt								    #
+=====================================================================================
+Add the field 	:
+answer_duration : 	INT(3) - NOT NULL - DEFAULT:'0'
+=====================================================================================
+=====================================================================================

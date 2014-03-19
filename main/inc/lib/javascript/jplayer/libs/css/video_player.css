@@ -1,0 +1,40 @@
+body{
+	background-color: #FFFFFF;
+	margin: 0;
+	
+}
+@media screen and (max-width: 320px) {
+
+#video{
+	//width: 640px;
+	height: 150px;
+    }	
+
+}
+
+@media screen and (min-width: 321px) and (max-width: 600px) {
+
+#video{
+	width: 250px;
+	height: 188px;
+    }	
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 949px) {
+
+#video{
+	width: 450px;
+	height: 337px;
+    }	
+
+}
+
+@media screen and (min-width: 950px) {
+
+#video{
+        width: 600px;
+	height: 450px;
+    }	
+}
+
