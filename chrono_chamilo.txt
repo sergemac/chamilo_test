@@ -9,7 +9,7 @@ The "Chrono for Chamilo" update developments allow 3 main functionnalities
 # 2 - Synchronise the countdown with the end of a HTML5 media reading 
 # 3 - Track the answering time for each question.
 =====================================================================================
-Github link : https://github.com/sergemac/timer
+Github link : https://github.com/sergemac/chamilo_test
 =====================================================================================
 
 Setting up the "Chrono for Chamilo" require to change the structure of the following tables.
@@ -29,4 +29,24 @@ chrono_media 	: 	TINYINT(3) - Unasigned data type - DEFAULT:'0'
 Add the field 	:
 answer_duration : 	INT(3) - NOT NULL - DEFAULT:'0'
 =====================================================================================
-=====================================================================================
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!         THIS VERSION INCLUDE AN OPTION FOR EXACT COMBINATION EXERCICES          !!
+!!   THIS OPTION PERMIT TO INCLUDE AN INTERMEDIATE QUESTION IN THE ANSWERS LIST    !!
+!!                      THIS OPTION REQUIRE A NEW TABLE                            !!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Exemple :
+Question 01 ?
+     rep 1
+     rep 2
+Question 02 ? (question intermediaire)
+     rep 3
+     rep 4
+======================================================================================
+# 3 - quiz_question_label (new table)						     #
+======================================================================================
+id		:	INT(10) - Primary key - NOT NULL - UNSIGNED - AUTO INCREMENT #
+question_id	:	INT(10) - NOT NULL - UNSIGNED				     #
+label		:	TEXT - NOT NULL						     #
+position	:	MEDIUMINT(8) - NOT NULL - UNSIGNED			     #
+c_id		:	INT(11) - NOT NULL					     #
+=======================================================================================
